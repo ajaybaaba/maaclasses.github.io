@@ -14,33 +14,30 @@ body{
     overflow-x: hidden;
 }
 header{
-    /* position: fixed;
-    width: 100%; */
+    position: fixed;
+   width: 100%;
     padding: 1rem;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
-    background-color: var(--healper-tint);
+    background-color: var(--heading);
 }
 .header .logo{
     height: 4rem;
     margin-left: 6rem;
-
-
 }
+
 h1{
     display: flex;
-    /* margin-left: -150px; */
+    color: #f3f4ff;
     margin-top: 10px;
-    /* gap: -12rem; */
 }
 
 .img{
-    /* height: 40px;
-    margin-left: 60px; */
-    height: 4rem;
+    height: 5rem;
     margin-left:6rem;
-    /* margin-top: -1rem; */
+    border-radius: 50%;
+   
 
 }
 
@@ -66,7 +63,7 @@ h1{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    color: black;
+    color:#f3f4ff;
     transition: all 0.3s;
 }
 .navbar-link:hover, 
@@ -193,6 +190,7 @@ section-hero
 /* use for slider */
 
 .slideshow{
+    margin-top: 20px;
     width:100%;
     height: 650px;
     margin: auto;
@@ -281,9 +279,10 @@ h3{
 
 /* textarea  */
 .section{
+
     background-color: var(--para-tint);
     margin-top: 10px;
-    height: 70vh;
+    height: 80vh;
 }
 .common-heading{
     color:black;
@@ -312,7 +311,7 @@ h3{
    
 }
 #submit{
-    width: 430px;
+    width: 470px;
     background-color:var(--healper);
     text-align: center;
 }
@@ -343,7 +342,136 @@ h3{
     max-width: 30%;
     border: none;
 }
+ 
 
+/*--============footer section 
+===========  */
+
+
+html{
+    display: grid;
+}
+.grid-four-column{
+   grid-template-columns: repeat(4,1fr); 
+   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+
+
+.section-footer{
+    display: grid;
+    height: 400px;
+   /* display: flex; */
+    background-color:var(--heading);
+    transition: all 0 0.7s linear;
+}
+.section-footer h3{
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+.container{
+    display: grid;
+    justify-items: center;
+    margin-top: 1.5rem;
+    
+}
+.f-about p{
+    color: #adadad;
+    margin-left: 3rem;
+    text-transform:lowercase;
+    line-height: 1.8rem;
+}
+.f-about h3{
+    padding-left: 1rem;
+}
+.f-services ul li a{
+    text-decoration: none;
+}
+
+.f-links ul li a {
+    text-decoration: none;
+    margin-right: 1rem;
+    
+}
+.f-links ul,
+.f-services ul,
+.f-address address{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    text-decoration: none;
+   
+
+}
+.f-links li,
+.f-links a,
+.f-services li,
+.f-services a{
+    font-size: 1.5rem;
+    color: #adadad;
+    text-transform: capitalize;
+    
+}
+.f-links span,
+.f-services span,
+.f-address span{
+    margin-right: 1rem;
+
+}
+.f-address p,
+.f-address p a{
+    font-style: normal;
+    color: #adadad;
+    text-decoration: none;
+}
+.f-social-icons{
+   
+    text-align: center;
+    color: #adadad;
+    position: relative;
+    animation: water-wave 3s linear infinite;
+    
+   
+}
+.f-social-icons a{
+    padding:1.4rem 1.1rem;
+    position: relative;
+    animation: water-wave 3s linear infinite;
+    text-decoration: none;
+    gap: 2rem;
+    text-align: center;
+    color: #f3f4ff;
+}
+.f-social-icons a :hover{
+    color: blue;
+
+}
+/* .f-social-icons .icons{
+    width: 4rem;
+    height: 4rem;
+    background-color: aliceblue;
+    display: inline-block;
+    padding:1.4rem 1.8rem;
+    position: relative;
+    animation: water-wave 3s linear infinite;
+    text-decoration: none;
+} */
+
+.container .f-social-icons ion-icon{
+ 
+    width: 3rem;
+    height: 3rem;
+    animation: water-wave 3s linear infinite;
+}
+
+.f-credits p{
+    color: #e4e4e4;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
 
 
 
