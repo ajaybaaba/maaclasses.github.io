@@ -25,3 +25,28 @@ var images=["images/img-2.jpeg",
         i=0;
     }
     setInterval(slides,3000)
+
+    //================= textarea section
+
+//     function sendEmail(){
+//         Email.send({
+//     Host : "smtp.gmail.com",
+//     Username : "2070083@kiit.ac.in",
+//     Password : "Ajay156@",
+//     To : 'ajaybaaba2@gmail.com',
+//     From : document.getElementById("email").value,
+   
+//     Subject : "New contcat Form Enquiry",
+   
+//     Body : "name: "+document.getElementById("name").value
+
+//     +"<br> email: "+document.getElementById("email").value
+    
+//     +"<br> subject: " +document.getElementById("subject").value
+    
+//     +"<br> message: " +document.getElementById("message").value
+// }).then(
+//   message => alert("message Sent successfully")
+// );
+//     }
+    
