@@ -182,10 +182,6 @@ section-hero
         /* height: 90vh; */
         height: 650px;
         background-color:rgba(0, 0, 0, 0.6); 
-        /* background-image: url(/images/bg.jpg); */
-        /* background-size: auto; */
-        /* background-color:#0000; */
-      
         position: absolute;
         top: 0;
         left: 0;
@@ -339,71 +335,6 @@ h3{
 
 
 
-/* textarea  */
-.section{
-
-    background-color: var(--para-tint);
-    margin-top: 10px;
-    height: 80vh;
-}
-.common-heading{
-    color:black;
-    font-size: 2.5rem;
-    /* text-align: center; */
-   padding: 20px;
-  
-}
-
-.section-contact-main{
-    display: grid;
-    max-width: 30rem;
-    margin: 0 auto;
-    margin-top: 3rem;
-    transition: all 0 0.3s linear;
-}
-.usr{
-    height: 2rem;
-    display: flex;
-    justify-items: center;
-   gap: 0.5rem;
-}
- #subject{
-    margin-top: 5px;
-    height: 2rem;
-   
-}
-#submit{
-    width: 470px;
-    background-color:var(--healper);
-    text-align: center;
-}
-#textarea{
-    height: 140px;
-}
-.section-contact-main form{
-    display: flex;
-    height: 400px;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.section-contact-main input, 
-.section-contact-main textarea{
-    padding: 1.5rem 2rem;
-    border: 0.1rem solid #c9c9c9;
-    border-radius: 5px;
-    font-size: 1.6rem;
-    width: 100%;
-    
-}
-/* .contact-container{
-  
-    border: 1px solid black;
-} */
-.section-contact-main input[type="submit"]{
-    max-width: 30%;
-    border: none;
-}
  
 
 /*--============footer section 
@@ -510,16 +441,7 @@ html{
     color: blue;
 
 }
-/* .f-social-icons .icons{
-    width: 4rem;
-    height: 4rem;
-    background-color: aliceblue;
-    display: inline-block;
-    padding:1.4rem 1.8rem;
-    position: relative;
-    animation: water-wave 3s linear infinite;
-    text-decoration: none;
-} */
+
 
 .container .f-social-icons ion-icon{
     /* margin-top: -10px; */
@@ -569,19 +491,6 @@ address div p span{
 }
 
 /* ============textarea======================== */
-
-
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh; */
-
-    /* background: aqua;
-    background: -webkit-linear-gradient(to right,#29ffc6,#20e3be,#0cebeb);
-    background: linear-gradient(to right,#29ffc6,#20e3be,#0cebeb);
-     */
-
 
 .form{
     background-color: gray;
